@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+pyqt5 = "*"
+future = "*"
+pil = "*"
+pillow = "*"
+numpy = "*"
+pyperclip = "*"
+pytesseract = "*"
+pyautogui = "*"
+pymouse = "*"
+pynput = "*"
+googletrans = "*"
+
+[requires]
+python_version = "3.7"
