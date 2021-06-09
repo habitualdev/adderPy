@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dde9d7b6-5655-4a28-9e4f-ee2549a26c91" name="Default Changelist" comment="" />
+    <list default="true" id="dde9d7b6-5655-4a28-9e4f-ee2549a26c91" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.screenshot2021-0608_15-04-23-857780.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.screenshot2021-0608_15-04-38-539760.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.screenshot2021-0608_15-06-23-060579.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.screenshot2021-0608_15-08-58-897156.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.screenshot2021-0608_20-32-26-556461.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.screenshot2021-0608_20-32-28-118957.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adder-over.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/keyboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adderPy.py" beforeDir="false" afterPath="$PROJECT_DIR$/adderPy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,12 +39,15 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1tfXxe8zqq7HVgVpyJm7jqT8J06" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -102,12 +118,26 @@
       <option name="presentableId" value="Default" />
       <updated>1623161364509</updated>
       <workItem from="1623161367254" duration="77000" />
-      <workItem from="1623161454471" duration="8428000" />
+      <workItem from="1623161454471" duration="13656000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/adderPy$adderPy.coverage" NAME="adderPy Coverage Results" MODIFIED="1623169634079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

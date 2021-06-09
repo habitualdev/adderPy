@@ -17,6 +17,7 @@ pyautogui = "*"
 pymouse = "*"
 pynput = "*"
 googletrans = "*"
+keyboard = "*"
 
 [requires]
 python_version = "3.7"

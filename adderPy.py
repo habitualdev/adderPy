@@ -1,12 +1,42 @@
+import os
 import lib.snip as snip
 import lib.translate as translate
-import os
+from pynput import keyboard
+
+
+def pull_and_process():
+    try:
+        area = snip.GetArea()
+        image = area.snip()
+        translated_string = translate.translate(image, language[choice])
+        print(translated_string)
+    except SystemError:
+        print("Bad box selection. Requires selecting with top left corner, then bottom right corner.\r\n")
+    except KeyboardInterrupt:
+        print("Goodbye")
+        exit()
+
+
+class RunApp:
+    def __init__(self):
+        with keyboard.GlobalHotKeys({'<ctrl>+<alt>+t': self.on_activate_t}) as self.l:
+            self.l.join()
+
+    def on_activate_t(self):
+        print("Now select your text.")
+        pull_and_process()
+
+
+
+
 n = 1
-language = ['rus', 'chi_sim', 'chi_tra', 'kor', 'fra']
+language = ['rus', 'chi_sim', 'chi_tra', 'kor', 'fra', 'Arabic']
 loop = True
 
 print("Easy OCR + Translate through a terminal - Without Cut and Paste!")
 print("Choose your language")
+
+
 
 for lan in language:
     print(str(n) + ": " + str(lan))
@@ -22,17 +52,11 @@ while loop:
 
 os.system("clear")
 print("You chose " + language[choice])
-print("Begin selecting text.")
-print("\r\n")
+print("Press \"Ctrl+Alt+T\" to begin.")
+
 
 while True:
     try:
-        area = snip.GetArea()
-        image = area.snip()
-        translated_string = translate.translate(image, language[choice])
-        print(translated_string)
-    except SystemError:
-        print("Bad box selection. Requires selecting with top left corner, then bottom right corner.\r\n")
+        app = RunApp()
     except KeyboardInterrupt:
-        print("Goodbye")
         exit()
